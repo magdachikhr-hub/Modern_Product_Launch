@@ -1,1 +1,76 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 78px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav {
+  position: relative;
+}
+header nav ul.desktop {
+  display: none;
+}
+header nav ul.mobile {
+  display: none;
+  position: absolute;
+  top: 24px;
+  right: -30px;
+  background-color: rgb(240, 236, 228);
+  padding: 5px;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+}
+header h1 {
+  font-family: "DM Sans", sans-serif;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 500;
+}
+header img.menu:hover ~ ul.mobile {
+  display: block;
+}
+header button.learn_more {
+  display: none;
+  width: 127px;
+  height: 38px;
+  background-color: #485c11;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  border-radius: 1000px;
+}
+
+@media screen and (min-width: 799px) {
+  header {
+    padding: 0 40px;
+  }
+  header nav ul.desktop {
+    display: block;
+    display: flex;
+    gap: 27px;
+  }
+  header img.menu {
+    display: none;
+  }
+  header button.learn_more {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

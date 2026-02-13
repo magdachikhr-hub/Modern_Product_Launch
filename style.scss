@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 78px;
+  padding: 0 20px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  nav {
+    position: relative;
+    ul.desktop {
+      display: none;
+    }
+    ul.mobile {
+      display: none;
+      position: absolute;
+      top: 24px;
+      right: -30px;
+      background-color: rgb(240, 236, 228);
+      padding: 5px;
+    }
+    ul {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "DM Sans", sans-serif;
+      }
+    }
+  }
+  h1 {
+    font-family: "DM Sans", sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  img.menu:hover ~ ul.mobile {
+    display: block;
+  }
+
+  button.learn_more {
+    display: none;
+    width: 127px;
+    height: 38px;
+    background-color: #485c11;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 1000px;
+  }
+}
+
+// heading @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+//   font-family: "Crimson Text", serif;
+
+@media screen and (min-width: 799px) {
+  header {
+    padding: 0 40px;
+    nav {
+      ul.desktop {
+        display: block;
+        display: flex;
+        gap: 27px;
+      }
+    }
+    img.menu {
+      display: none;
+    }
+    button.learn_more {
+      display: block;
+    }
+  }
+}
