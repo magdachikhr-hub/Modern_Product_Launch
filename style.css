@@ -149,6 +149,8 @@ main section.third div.card h3 {
   color: #000000;
   font-weight: 600;
   letter-spacing: -0.03em;
+  margin-top: 24px;
+  margin-bottom: 20px;
 }
 main section.third div.card p {
   color: #6f6f6f;
@@ -159,6 +161,16 @@ main section.third div.card p {
 }
 main section.third div.four p.generate {
   width: 303px;
+}
+main section.third div.one,
+main section.third div.two,
+main section.third div.three {
+  border-bottom: 1px solid #e9e9e9;
+}
+main section.third div.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 @media screen and (min-width: 799px) {
@@ -192,6 +204,46 @@ main section.third div.four p.generate {
     padding: 50px 40px;
     height: 334px;
   }
+  main section.third {
+    height: 893px;
+    padding: 80px 40px;
+  }
+  main section.third div.benefits {
+    height: 301px;
+  }
+  main section.third div.benefits span {
+    font-size: 11px;
+    letter-spacing: -0.01em;
+  }
+  main section.third div.benefits h2 {
+    width: 520px;
+    font-size: 54px;
+    margin: 50px 0;
+    line-height: 90%;
+  }
+  main section.third div.benefits p {
+    font-size: 15px;
+    width: 520px;
+  }
+  main section.third div.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  main section.third div.cards div.card {
+    width: 350px;
+  }
+  main section.third div.cards div.card p {
+    width: 340px;
+  }
+  main section.third div.four p.generate {
+    width: 303px;
+  }
+  main section.third div.one,
+  main section.third div.two,
+  main section.third div.three {
+    border-bottom: 1px solid #e9e9e9;
+  }
 }
 @media screen and (min-width: 1279px) {
   main section.first h2 {
@@ -208,5 +260,43 @@ main section.third div.four p.generate {
   }
   main section.second {
     height: 235px;
+  }
+  main section.third {
+    height: 893px;
+    padding: 80px 40px;
+  }
+  main section.third div.benefits {
+    height: 301px;
+  }
+  main section.third div.benefits span {
+    font-size: 11px;
+    letter-spacing: -0.01em;
+  }
+  main section.third div.benefits h2 {
+    width: 520px;
+    font-size: 54px;
+    margin: 50px 0;
+    line-height: 90%;
+  }
+  main section.third div.benefits p {
+    font-size: 15px;
+    width: 520px;
+  }
+  main section.third div.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+  }
+  main section.third div.cards div.card {
+    width: 285px;
+  }
+  main section.third div.cards div.card h3,
+  main section.third div.cards div.card p {
+    width: 265px;
+  }
+  main section.third div.one,
+  main section.third div.two,
+  main section.third div.three {
+    border-bottom: 1px solid #e9e9e9;
   }
 }/*# sourceMappingURL=style.css.map */
