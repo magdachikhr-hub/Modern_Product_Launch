@@ -85,6 +85,25 @@ main section.first img.hero_second {
 main section.first img.hero_third {
   display: none;
 }
+main section.second {
+  height: 436px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 16px;
+  gap: 30px;
+}
+main section.second p.trust {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6f6f6f;
+  font-family: "DM Sans", sans-serif;
+}
+main section.second div.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
 
 @media screen and (min-width: 799px) {
   header {
@@ -113,6 +132,10 @@ main section.first img.hero_third {
   main section.first img.hero_second {
     display: block;
   }
+  main section.second {
+    padding: 50px 40px;
+    height: 334px;
+  }
 }
 @media screen and (min-width: 1279px) {
   main section.first h2 {
@@ -126,5 +149,8 @@ main section.first img.hero_third {
   }
   main section.first img.hero_third {
     display: block;
+  }
+  main section.second {
+    height: 235px;
   }
 }/*# sourceMappingURL=style.css.map */

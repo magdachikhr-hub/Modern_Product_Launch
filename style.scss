@@ -90,6 +90,30 @@ main {
       display: none;
     }
   }
+
+  // section second
+  section.second {
+    height: 436px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px 16px;
+    gap: 30px;
+
+    p.trust {
+      font-size: 15px;
+      font-weight: 500;
+      color: #6f6f6f;
+      font-family: "DM Sans", sans-serif;
+    }
+
+    div.images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+  }
 }
 
 @media screen and (min-width: 799px) {
@@ -125,6 +149,10 @@ main {
         display: block;
       }
     }
+    section.second {
+      padding: 50px 40px;
+      height: 334px;
+    }
   }
 }
 
@@ -143,6 +171,9 @@ main {
       img.hero_third {
         display: block;
       }
+    }
+    section.second {
+      height: 235px;
     }
   }
 }
