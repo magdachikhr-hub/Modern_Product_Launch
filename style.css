@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -258,6 +259,33 @@ main section.fifth div.container div.button_two button.discover {
   font-family: "DM Sans", sans-serif;
   color: #000000;
   border: none;
+}
+main section.six div.table {
+  display: flex;
+}
+main section.six div.table table {
+  border-collapse: collapse;
+}
+main section.six div.table table tr td,
+main section.six div.table table tr th {
+  display: flex;
+}
+main section.six div.table table tr th {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #6f6f6f;
+  letter-spacing: -0.08em;
+  border-bottom: 1px solid #929292;
+}
+main section.six div.table table tr th.area {
+  color: #000000;
+  font-family: "DM Sans", sans-serif;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  border-top: 1px solid #e9e9e9;
 }
 
 @media screen and (min-width: 799px) {
