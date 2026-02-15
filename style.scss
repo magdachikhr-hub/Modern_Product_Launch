@@ -269,26 +269,63 @@ main {
       div.button_two {
         margin-top: 40px;
         margin-bottom: 80px;
-        button.discover {
-          width: 138px;
-          height: 48px;
-          font-size: 14px;
-          font-weight: 600;
-          border-radius: 1000px;
-          background-color: #dfecc6;
-          font-family: "DM Sans", sans-serif;
-          color: #000000;
-          border: none;
-        }
       }
     }
+  }
+  button.discover {
+    width: 138px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 1000px;
+    background-color: #dfecc6;
+    font-family: "DM Sans", sans-serif;
+    color: #000000;
+    border: none;
   }
 
   // section six
   section.six {
     height: 1148px;
+    padding: 80px 8px;
+    border-top: 1px solid #929292;
+    div.choose {
+      height: 400px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      span {
+        font-family: "Roboto Mono", monospace;
+        font-size: 10.5px;
+        color: #485c11;
+        font-weight: 500;
+      }
+      h3 {
+        font-size: 50px;
+        font-weight: 500;
+        width: 343px;
+        line-height: 95%;
+        font-family: "Crimson Text", serif;
+        color: #000000;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      p {
+        font-family: "DM Sans", sans-serif;
+        line-height: 140%;
+        font-size: 15px;
+        font-weight: 500;
+        color: #6f6f6f;
+        width: 350px;
+        letter-spacing: -0.05em;
+        margin-bottom: 30px;
+      }
+    }
     div.table {
       display: flex;
+      width: 100%;
+      overflow-x: scroll;
       table {
         border-collapse: collapse;
 
@@ -470,6 +507,31 @@ main {
         }
       }
     }
+    section.six {
+      padding: 80px 40px;
+      div.choose {
+        height: 390px;
+        span {
+          font-size: 11px;
+        }
+        h3 {
+          font-size: 54px;
+          width: 560px;
+          line-height: 90%;
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
+        p {
+          width: 560px;
+          margin-bottom: 40px;
+        }
+      }
+      div.table {
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
+      }
+    }
   }
 }
 
@@ -582,6 +644,41 @@ main {
           height: 82px;
           p {
             width: 460px;
+          }
+        }
+      }
+    }
+    section.six {
+      padding: 80px 40px;
+      div.choose {
+        height: 380px;
+        span {
+          font-size: 11px;
+        }
+        h3 {
+          font-size: 54px;
+          width: 560px;
+          line-height: 90%;
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
+        p {
+          width: 720px;
+          margin-bottom: 40px;
+        }
+      }
+      div.table {
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
+        table {
+          th {
+            width: 350px;
+            height: 96px;
+          }
+          td {
+            width: 350px;
+            height: 81px;
           }
         }
       }
