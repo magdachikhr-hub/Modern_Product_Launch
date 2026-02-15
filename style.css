@@ -398,6 +398,7 @@ main section.eight {
   height: 1340px;
   padding: 80px 16px 0;
   border-top: 1.5px solid #e9e9e9;
+  margin-bottom: 60px;
 }
 main section.eight img.map_two {
   display: none;
@@ -451,6 +452,41 @@ main section.eight div.scroll div.card_eight p {
 main section.eight div.maps {
   display: flex;
   justify-content: center;
+}
+main section.nine {
+  height: 457px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e9e9e9;
+  border-top: 1px solid #e9e9e9;
+}
+main section.nine h2 {
+  font-family: "Crimson Text", serif;
+  font-size: 50px;
+  font-weight: 500;
+}
+main section.nine p {
+  color: #6f6f6f;
+  width: 343px;
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+main section.nine button.learn {
+  width: 343px;
+  height: 48px;
+  border-radius: 1000px;
+  background-color: #485c11;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  border: none;
 }
 
 @media screen and (min-width: 799px) {
@@ -628,6 +664,18 @@ main section.eight div.maps {
   main section.eight div.maps {
     display: flex;
     justify-content: center;
+  }
+  main section.nine {
+    height: 459px;
+  }
+  main section.nine h2 {
+    font-size: 54px;
+  }
+  main section.nine p {
+    width: 520px;
+  }
+  main section.nine button.learn {
+    width: 520px;
   }
 }
 @media screen and (min-width: 1279px) {
@@ -820,5 +868,14 @@ main section.eight div.maps {
   main section.eight div.maps {
     display: flex;
     justify-content: center;
+  }
+  main section.nine {
+    height: 464px;
+  }
+  main section.nine p {
+    width: 600px;
+  }
+  main section.nine button.learn {
+    width: 600px;
   }
 }/*# sourceMappingURL=style.css.map */
