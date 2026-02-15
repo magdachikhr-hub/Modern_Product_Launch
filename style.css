@@ -352,6 +352,48 @@ main section.six div.table table tr td.full {
   border-bottom-right-radius: 20px;
   border-bottom: 1.5px solid #e9e9e9;
 }
+main section.seven {
+  height: 909px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+main section.seven img.rocks_two {
+  display: none;
+}
+main section.seven img.rocks_three {
+  display: none;
+}
+main section.seven div.rocks_text p {
+  font-family: "Crimson Text", serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 110%;
+  color: #000000;
+  letter-spacing: -0.04em;
+  height: 315px;
+  width: 311px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+main section.seven div.rocks_text span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  color: #000000;
+  font-weight: 500;
+}
+main section.seven div.rocks_text span.data {
+  color: #485c11;
+  font-size: 10.5px;
+  font-weight: 500;
+  font-family: "Roboto Mono", monospace;
+}
+main section.seven div.rocks_text div.spans {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
 
 @media screen and (min-width: 799px) {
   header {
@@ -485,6 +527,20 @@ main section.six div.table table tr td.full {
     display: flex;
     justify-content: center;
     overflow-x: hidden;
+  }
+  main section.seven {
+    height: 1256px;
+  }
+  main section.seven img.rocks_two {
+    display: block;
+  }
+  main section.seven img.rocks_one {
+    display: none;
+  }
+  main section.seven div.rocks_text p {
+    font-size: 40px;
+    height: 220px;
+    width: 720px;
   }
 }
 @media screen and (min-width: 1279px) {
@@ -621,5 +677,29 @@ main section.six div.table table tr td.full {
   main section.six div.table table td {
     width: 350px;
     height: 81px;
+  }
+  main section.seven {
+    height: 790px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+  }
+  main section.seven img.rocks_two {
+    display: none;
+  }
+  main section.seven img.rocks_three {
+    display: block;
+  }
+  main section.seven div.rocks_text p {
+    font-size: 40px;
+    height: 294px;
+    width: 540px;
+  }
+  main section.seven div.spans {
+    display: flex;
+    flex-direction: column;
+    height: 46px;
+    width: 90px;
   }
 }/*# sourceMappingURL=style.css.map */

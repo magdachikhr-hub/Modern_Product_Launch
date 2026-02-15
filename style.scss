@@ -380,6 +380,52 @@ main {
       }
     }
   }
+
+  // section seven
+  section.seven {
+    height: 909px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    img.rocks_two {
+      display: none;
+    }
+    img.rocks_three {
+      display: none;
+    }
+    div.rocks_text {
+      p {
+        font-family: "Crimson Text", serif;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 110%;
+        color: #000000;
+        letter-spacing: -0.04em;
+        height: 315px;
+        width: 311px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+      }
+      span {
+        font-family: "DM Sans", sans-serif;
+        font-size: 15px;
+        color: #000000;
+        font-weight: 500;
+      }
+      span.data {
+        color: #485c11;
+        font-size: 10.5px;
+        font-weight: 500;
+        font-family: "Roboto Mono", monospace;
+      }
+      div.spans {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 799px) {
@@ -532,6 +578,23 @@ main {
         overflow-x: hidden;
       }
     }
+    section.seven {
+      height: 1256px;
+
+      img.rocks_two {
+        display: block;
+      }
+      img.rocks_one {
+        display: none;
+      }
+      div.rocks_text {
+        p {
+          font-size: 40px;
+          height: 220px;
+          width: 720px;
+        }
+      }
+    }
   }
 }
 
@@ -681,6 +744,33 @@ main {
             height: 81px;
           }
         }
+      }
+    }
+    section.seven {
+      height: 790px;
+      display: flex;
+      flex-direction: row;
+      gap: 70px;
+      justify-content: center;
+
+      img.rocks_two {
+        display: none;
+      }
+      img.rocks_three {
+        display: block;
+      }
+      div.rocks_text {
+        p {
+          font-size: 40px;
+          height: 294px;
+          width: 540px;
+        }
+      }
+      div.spans {
+        display: flex;
+        flex-direction: column;
+        height: 46px;
+        width: 90px;
       }
     }
   }
