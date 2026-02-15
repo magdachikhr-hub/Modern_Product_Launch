@@ -189,6 +189,76 @@ main section.fourth img.nature_second {
 main section.fourth img.nature_third {
   display: none;
 }
+main section.fifth {
+  height: 1321px;
+  padding: 60px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section.fifth img.block_two {
+  display: none;
+}
+main section.fifth img.block_three {
+  display: none;
+}
+main section.fifth div.container div.text_fifth h3 {
+  font-size: 50px;
+  color: #000000;
+  font-family: "Crimson Text", serif;
+  font-weight: 500;
+  width: 300px;
+  line-height: 95%;
+}
+main section.fifth div.container div.text_fifth p {
+  font-size: 15px;
+  color: #6f6f6f;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  width: 300px;
+  line-height: 140%;
+  letter-spacing: -0.005em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+main section.fifth div.container div.small_card {
+  width: 311px;
+  height: 103px;
+  display: flex;
+  gap: 30px;
+  border-top: 1px solid #e9e9e9;
+  padding-top: 20px;
+}
+main section.fifth div.container div.small_card span {
+  color: #6f6f6f;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+main section.fifth div.container div.small_card p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.005em;
+  line-height: 140%;
+  color: #000000;
+}
+main section.fifth div.container div.button_two {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+main section.fifth div.container div.button_two button.discover {
+  width: 138px;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 1000px;
+  background-color: #dfecc6;
+  font-family: "DM Sans", sans-serif;
+  color: #000000;
+  border: none;
+}
 
 @media screen and (min-width: 799px) {
   header {
@@ -276,6 +346,28 @@ main section.fourth img.nature_third {
   main section.fourth img.nature_third {
     display: none;
   }
+  main section.fifth {
+    height: 1516px;
+    padding: 60px 40px;
+  }
+  main section.fifth img.block_two {
+    display: block;
+  }
+  main section.fifth img.block_one {
+    display: none;
+  }
+  main section.fifth div.container div.text_fifth h3 {
+    font-size: 54px;
+    width: 640px;
+    line-height: 90%;
+  }
+  main section.fifth div.container div.text_fifth p {
+    width: 640px;
+  }
+  main section.fifth div.container div.small_card {
+    width: 720px;
+    height: 61px;
+  }
 }
 @media screen and (min-width: 1279px) {
   main section.first h2 {
@@ -348,5 +440,35 @@ main section.fourth img.nature_third {
     display: block;
     width: 1200px;
     height: 620px;
+  }
+  main section.fifth {
+    height: 831px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  main section.fifth img.block_two {
+    display: none;
+  }
+  main section.fifth img.block_three {
+    display: block;
+  }
+  main section.fifth div.container {
+    width: 590px;
+  }
+  main section.fifth div.container div.text_fifth h3 {
+    font-size: 60px;
+    width: 510px;
+  }
+  main section.fifth div.container div.text_fifth p {
+    width: 510px;
+  }
+  main section.fifth div.container div.small_card {
+    width: 590px;
+    height: 82px;
+  }
+  main section.fifth div.container div.small_card p {
+    width: 460px;
   }
 }/*# sourceMappingURL=style.css.map */
