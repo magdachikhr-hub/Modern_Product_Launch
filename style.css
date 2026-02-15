@@ -600,6 +600,35 @@ main section.eight div.maps {
     height: 220px;
     width: 720px;
   }
+  main section.eight {
+    height: 1354px;
+    padding: 80px 40px 0;
+  }
+  main section.eight img.map_two {
+    display: block;
+  }
+  main section.eight img.map_one {
+    display: none;
+  }
+  main section.eight div.success {
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+  main section.eight div.success h2 {
+    font-size: 54px;
+  }
+  main section.eight div.scroll {
+    overflow-x: hidden;
+  }
+  main section.eight div.scroll div.card_eight {
+    min-width: 240px;
+    height: 290px;
+  }
+  main section.eight div.maps {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 1279px) {
   main section.first h2 {
@@ -759,5 +788,37 @@ main section.eight div.maps {
     flex-direction: column;
     height: 46px;
     width: 90px;
+  }
+  main section.eight {
+    height: 1420px;
+  }
+  main section.eight img.map_two {
+    display: none;
+  }
+  main section.eight img.map_three {
+    display: block;
+  }
+  main section.eight div.success {
+    height: 200px;
+  }
+  main section.eight div.success h2 {
+    font-size: 54px;
+  }
+  main section.eight div.scroll {
+    gap: 50px;
+  }
+  main section.eight div.scroll div.card_eight {
+    width: 386px;
+    height: 300px;
+  }
+  main section.eight div.scroll div.card_eight span {
+    font-size: 80px;
+  }
+  main section.eight div.scroll div.card_eight p {
+    width: 356px;
+  }
+  main section.eight div.maps {
+    display: flex;
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
